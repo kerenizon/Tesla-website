@@ -1,0 +1,346 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Main Styling */
+  html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+
+  /* Utility Classes */
+.container{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.half{
+    position: absolute;
+}
+  .clr {
+    clear: both;
+  }
+.second_size{
+    font-size: 30px;
+}
+.third_size{
+    font-size: small;
+    font-weight: 400;
+}
+.cards p{
+    padding: 10px 20px;
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: center;
+    line-height: 0.5em;
+}
+.oredernow_btn{
+    position: absolute;
+    top: 8px;
+    width: 150px;
+    height: 33px;
+    border: 3px solid white;
+    border-radius: 155px;
+    font-size: small;
+    padding: 5px 32px;
+}
+.blk_btn{
+    border: 3px solid black;
+    color: black;
+}
+.wh_btn:hover{
+    background-color: white;
+    color: black;    
+}
+.blk_btn:hover{
+    background-color: black;
+    color: white;    
+}
+.centered_text{
+    text-align: center;
+}
+.plus_btn{
+    position: absolute;
+    top: 24px;
+    width: 40px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 300px;
+    text-align: center;
+    font-weight: 800;
+    font-size: x-large;
+    padding-bottom: 5px;
+}
+.learn_btn{
+    position: absolute;
+    top: 35px;
+    width: 100px;
+    text-align: center;
+    font-size: small;
+    color: black;
+}
+
+/* Side-Bar */
+.side-bar ul{
+    list-style: none;
+    position: absolute;
+    top: 160px;
+    left: 10px;
+}
+.side-bar ul li a{
+    font-size: smaller;
+    font-weight: 500;
+    padding-left: 10px;
+    line-height: 1.7em;
+}
+.sd-white ul li a{
+    color: rgba(255, 255, 255, 0.0);   
+    border-left: 1px solid white ;
+}
+.sd-white ul li a:hover{
+    color: rgba(255, 255, 255, 0.7);
+}
+.sd-white a.current{
+    border-left: 4px solid white;
+}
+.sd-black ul li a{
+    color: rgba(0, 0, 0, 0.0);   
+    border-left: 1px solid black ;
+}
+.sd-black ul li a:hover{
+    color: rgba(0, 0, 0, 0.7);
+}
+.sd-black a.current{
+    border-left: 4px solid black;
+}
+
+
+/*//////////////////////////////////////////////////////////* container_1 *//*/////////////////////////////////////////////////////*/
+/* Navbar */
+.logo{
+    float: left;
+    padding: 20px 10px;
+    width: 120px;
+  }
+.container_1 .navbar .hm_logo{
+    float: right;
+    padding: 10px 10px;
+    width: 40px;
+  }
+.container_1 .navbar ul{
+    list-style: none;
+    float: right;
+}  
+.container_1 .navbar ul li{
+    float: left;
+}
+.container_1 .navbar ul li a{
+    display: block;
+    padding: 8px;
+    text-align: center;
+    font-weight: 500;   
+}
+.container_1 .navbar .shop_list{
+    padding-left: 340px;
+}
+.container_1 a{ 
+    color: #fff;
+}
+
+  /* Showcase */
+.container_1{
+    background: url('https://www.tesla.com/sites/default/files/model3-new/hero/model-3-hero-desktop-v2.jpg') no-repeat center center/cover;
+}
+.container_1 .showcase h1{
+    position: relative;
+    color: white;
+    top: 40px;
+    left: 750px;
+    font-weight: 600;
+    font-size: 40px;
+}
+.container_1 .showcase .cards{
+    height: 100px;
+    width: 630px;
+    position: relative;
+    top: 520px;
+    left: 500px;
+}
+.container_1 .showcase .cards > div{
+    display: inline-block;
+    height: 60px;
+    width: 160px; 
+    position: absolute;
+    border: 1px solid transparent;
+    color: white;
+}
+.container_1 .showcase .cards .card_1{
+    left: 0px;
+    border-right: 1px solid white;
+}
+.container_1 .showcase .cards .card_2{
+    left: 160px;
+    border-right: 1px solid white;
+}
+.container_1 .showcase .cards .card_3{
+    left: 320px;
+}
+.container_1 .showcase .cards .card_4{
+    left: 480px;
+}
+/*//////////////////////////////////////////////////////////* container_2 *//*/////////////////////////////////////////////////////*/
+.half-container2_1,.half-container2_2{
+    height: 100%;
+}
+.half-container2_1{
+    background: url('/img/background2.png') no-repeat center center/cover;
+    right: 0px;
+    width: 73%;
+}
+.half-container2_2{
+      width: 27%;
+}
+.half-container2_2 > p, .half-container2_2 > h1, .half-container2_2 > div{
+    position: absolute;
+    left: 40px;
+    right: 60px; 
+}
+.half-container2_2 .subtitle{
+    top: 70px;
+    line-height: 0em;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.half-container2_2 .title{
+    top: 80px;
+    font-weight: 600;
+}
+.half-container2_2 .text{
+    top: 130px;
+    line-height: 1.5em;
+}
+.rating{
+    top: 350px;
+    width: 320px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #EEEEEE;
+    text-align: center;
+    position: relative;
+    color: #333;
+}
+.rating h1{
+    font-weight: 600;
+    font-size: large;
+    padding:20px
+}
+.minimal_size{
+    font-size: xx-small;
+}
+.rating_text{
+    position: absolute;
+    left: 50px;
+    text-align: left;
+    font-weight: 600;
+}
+.stars{
+    position: absolute;
+    right: 50px;
+    text-align: right;
+    line-height: 2em;
+} 
+.plus-learn-order{
+    top: 650px;
+    height: 100px;
+    width: 320px;
+    position: relative;
+}
+.plus-learn-order > div{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+.plus-learn-order .card_2{
+    left: 40px;
+}
+.plus-learn-order .card_3{
+    left: 170px;
+}
+.plus-learn-order .card_3 .oredernow_btn{
+    top: 28px;
+}
+
+/*//////////////////////////////////////////////////////////* container_3 *//*/////////////////////////////////////////////////////*/
+.half-container3_1,.half-container3_2{
+    width: 100%;
+}
+.half-container3_1{
+    top: 0px;
+    height: 60%;
+}
+.half-container3_1 video{
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+.half-container3_1 p{
+    color: white;
+}
+.half-container3_1 .cards{
+    height: 90px;
+    width: 900px;
+    position: relative;
+    top: 330px;
+    left: 350px;
+}
+.half-container3_1 .cards > div{
+    display: inline-block;
+    height: 90px;
+    width: 300px; 
+    position: absolute;
+    color: white;
+}
+.half-container3_1 .cards .card_1{
+    left: 0px;
+    border-right: 1px solid white;
+}
+.half-container3_1 .cards .card_2{
+    left: 300px;
+    border-right: 1px solid white;
+}
+.half-container3_1 .cards .card_3{
+    width: 400px;
+    left: 600px;
+}
+.half-container3_1 .cards p{
+    text-align: left;
+}
+
+.half-container3_2{
+    height: 40%;
+    position: relative;
+}
+.half-container3_2 > div, .half-container3_2 > p, .half-container3_2 > h1{
+    position: absolute;
+    top: 500px;
+    left: 350px;
+    right: 300px;
+}
+.half-container3_2 .text{
+    left: 700px;
+}
+.half-container3_2 .title{
+    top: 520px;
+}
+.half-container3_2 .plus-learn-order{
+    top: 550px;
+}
+
+
+
